@@ -112,6 +112,8 @@ def recommend():
     return {"action": action}
 
 # STEP FIVE Deployment & Monitoring
+# Containerize the Flask API:
+# DOCKERFILE
 FROM python:3.8
 COPY requirements.txt .
 RUN pip install -r requirements.txt
