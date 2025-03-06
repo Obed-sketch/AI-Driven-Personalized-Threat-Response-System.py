@@ -35,6 +35,8 @@ Prometheus: Tracks A/B test metrics (e.g., recommendation counts) to measure use
 # STEP FIVE
 Tools: Docker, Grafana, Kubernetes
 Deploy to Kubernetes for scalability.
+Containerize the Flask API:
+DOCKERFILE
 
 Visualize metrics in Grafana:
 Track rl_recommendations vs. rule_recommendations.
